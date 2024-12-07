@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="829mQ6pZsoDLK7mTw993">
+    <mxGraphModel dx="1142" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--60" value="értesítést küld" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="INZVSPJ0mG2xGFeDbzj--70" source="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="320" />
+            </Array>
+            <mxPoint x="1030" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--37" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="970" y="80" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--37">
+          <mxGeometry x="45" y="70" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--37">
+          <mxGeometry x="45" y="280" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--42" value="Üzenet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1152" y="80" width="101" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="46" y="70" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="45" y="280" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--47" value="beállít küldő" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="1" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--76" value="beállít üzenet" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="1" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--75" value="beállít címzett" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="1" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--42">
+          <mxGeometry x="45.5" y="230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--45" value="új üzenet" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="INZVSPJ0mG2xGFeDbzj--38" target="INZVSPJ0mG2xGFeDbzj--43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--65" value="üzenet elküldve" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="INZVSPJ0mG2xGFeDbzj--42" target="INZVSPJ0mG2xGFeDbzj--40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1111" y="370" />
+            </Array>
+            <mxPoint x="1030" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--68" value="Felhasználó&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--70" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1332" y="80" width="100" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="INZVSPJ0mG2xGFeDbzj--70">
+          <mxGeometry x="45" y="230" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--74" value="Felhasználó&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1377" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="INZVSPJ0mG2xGFeDbzj--78" value="Interakciós diagramm" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1113.75" y="10" width="177.5" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
