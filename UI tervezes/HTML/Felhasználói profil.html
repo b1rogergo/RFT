@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Felhasználói Profil</title>
+    <style>
+        body {
+            font-family: Cascadia Code, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url("open_for_love-wallpaper-3554x1999.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        header, footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            color: #fbf1fb;
+        }
+        header h1 {
+            font-size: 72px;
+			color: #8a528a;
+        }
+        footer {
+            color: black !important;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-container {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .profile-group {
+            margin-bottom: 15px;
+        }
+        .profile-group img {
+            display: block;
+            margin: 0 auto 10px;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+		.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+        .profile-group label {
+            font-weight: bold;
+        }
+        .profile-group p {
+            margin: 5px 0;
+        }
+        .profile-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile-actions button {
+            padding: 10px 20px;
+            background-color: #8a528a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Felhasználói Profil</h1>
+    </header>
+    <div class="container">
+        <div class="profile-container">
+            <div class="profile-group">
+                <img src="img_avatar.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="profile-group">
+                <label>Felhasználónév:</label>
+                <p>Gipsz Jakab</p>
+            </div>
+            <div class="profile-group">
+                <label>E-mail:</label>
+                <p>gipszjakab@gmail.com</p>
+            </div>
+            <div class="profile-group">
+                <label>Bemutatkozás:</label>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="profile-actions">
+                <button type="button">Szerkesztés</button>
+                <button type="button">Kijelentkezés</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Társkereső Weboldal. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Üzenetek</title>
+    <style>
+        body {
+            font-family: Cascadia Code, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url("open_for_love-wallpaper-3554x1999.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        header, footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            color: #fbf1fb;
+        }
+        header h1 {
+            font-size: 72px;
+			color: #8a528a;
+        }
+        footer {
+            color: black !important;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .message-container {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .message-group {
+            margin-bottom: 15px;
+        }
+        .message-group label {
+            font-weight: bold;
+        }
+        .message-group p {
+            margin: 5px 0;
+        }
+        .message-actions {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .message-actions button {
+            padding: 10px 20px;
+            background-color: #8a528a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Üzenetek</h1>
+    </header>
+    <div class="container">
+        <div class="message-container">
+            <div class="message-group">
+                <label>Feladó:</label>
+                <p>Gipsz Jakab</p>
+            </div>
+            <div class="message-group">
+                <label>Üzenet:</label>
+                <p>Szia! Hogy vagy?</p>
+            </div>
+            <div class="message-group">
+                <label>Dátum:</label>
+                <p>2024-12-01</p>
+            </div>
+            <div class="message-actions">
+                <button type="button">Válasz</button>
+                <button type="button">Törlés</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Társkereső Weboldal. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>

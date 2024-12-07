@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Társkereső Weboldal</title>
+    <style>
+        body {
+            font-family: Cascadia Code, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url("open_for_love-wallpaper-3554x1999.jpg");
+            background-repeat: no-repeat;
+			background-size: cover;
+			min-height: 100vh;
+        }
+        header, footer {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+			color: #fbf1fb;
+			
+        }
+		header h1 {
+			font-size: 72px;	
+		}
+		footer {
+			color: black; !important
+		}
+        .container {
+			max-width: 800px;
+			width: 100%;
+			padding: 30px;
+			background-color: rgba(0, 0, 0, 0.3);
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+        .form-container {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #8a528a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Társkereső</h1>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h2>Regisztráció</h2>
+            <div class="form-group">
+                <label for="username">Felhasználónév:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Jelszó:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <button type="button">Regisztrálok</button>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Bejelentkezés</h2>
+            <div class="form-group">
+                <label for="login-username">Felhasználónév:</label>
+                <input type="text" id="login-username" name="login-username">
+            </div>
+            <div class="form-group">
+                <label for="login-password">Jelszó:</label>
+                <input type="password" id="login-password" name="login-password">
+            </div>
+            <div class="form-group">
+                <button type="button">Bejelentkezés</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Társkereső Weboldal. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
